@@ -10,13 +10,13 @@
 
 5. The REStful endpoints exposed are present in com.genesys.connect.controllers.Connect5Controller. APIs provided include functionality to add a player, get game status, take a turn and disconnect from the game. 
 
-6. Junit and Mockito have been used for testing. The Jacoco plugin in Spring Boot allows for seeing test coverage and at the time of writing this, this stands at 94.7%. The tests can be executed using the command <mvn test>. 
+6. Junit and Mockito have been used for testing. The Jacoco plugin in Spring Boot allows for seeing test coverage and at the time of writing this, this stands at 94.7%. The tests can be executed using the command `mvn test`. 
 
-7. To view the test coverage, run the command <mvn clean verify>. Then open the reports at location <Project Location>/target/site/jacoco/index.html
+7. To view the test coverage, run the command `mvn clean verify`. Then open the reports at location `Project Location>/target/site/jacoco/index.html`
 
 # Build and Run
 
 1. Check out the application Connect5 from the repo and naviagte to <file location>/Connect5 in the Console
 
-2. Run the command <mvn spring-boot:run>.  
+2. Run the command `mvn spring-boot:run`.  
 
